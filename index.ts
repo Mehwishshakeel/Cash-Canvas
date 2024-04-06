@@ -35,4 +35,4 @@ let toAmount = currency[user_Amount.to]       // exchange rate
 let amount = user_Amount.amount
 let baseAmount = amount/fromAmount
 let convertedAmount = baseAmount*toAmount   // USD base currency
-console.log(convertedAmount);
+console.log(convertedAmount)
